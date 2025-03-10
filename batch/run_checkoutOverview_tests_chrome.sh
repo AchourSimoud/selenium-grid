@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="json:reports/rapportCheckoutOverview.json" -D cucumber.filter.tags="@checkoutoverview" -D browser="chrome"

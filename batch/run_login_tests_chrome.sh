@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="json:reports/cucumber-report.json" -D cucumber.filter.tags="@login" -D browser="chrome"

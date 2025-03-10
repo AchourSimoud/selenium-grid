@@ -1,0 +1,1 @@
+mvn test -D cucumber.plugin="json:reports/rapportPanier.json" -D cucumber.filter.tags="@panier" -D browser="firefox"
